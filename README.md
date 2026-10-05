@@ -1,17 +1,46 @@
-# conversor_app
+# 🪙 Conversor de Moedas
 
-A new Flutter project.
+Um aplicativo simples e direto desenvolvido em **Flutter** que realiza a conversão em tempo real entre **Real (BRL)**, **Dólar (USD)** e **Euro (EUR)** consumindo a API de finanças da [HG Brasil Finance](https://hgbrasil.com/).
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📸 Demonstração
 
-A few resources to get you started if this is your first Flutter project:
+<p align="center">
+  <img src="github/images/app-foto.png" alt="Tela Principal do Aplicativo" width="300"/>
+</p>
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Funcionalidades
+
+- **Cotação em tempo real**: Consulta automática dos valores de compra do Dólar e do Euro via requisição HTTP.
+- **Conversão reativa**: Altere o valor em qualquer um dos campos (Real, Dólar ou Euro) e os demais são recalculados instantaneamente.
+- **Feedback de status**: Exibição de tela de carregamento e mensagem amigável caso ocorra falha na conexão com a API.
+- **Tema escuro**: Interface contrastante com tema Dark e detalhes em âmbar.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [Flutter](https://flutter.dev/) - Framework multiplataforma
+- [Dart](https://dart.dev/) - Linguagem de programação
+- [http](https://pub.dev/packages/http) - Pacote para consumo de requisições HTTP REST
+- [HG Brasil Finance API](https://hgbrasil.com/) - Provedor de cotações financeiras
+
+---
+
+## 📦 Como Executar o Projeto
+
+### Pré-requisitos
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) instalado na sua máquina
+- Um emulador Android/iOS configurado ou um dispositivo físico conectado via USB
+- Chave de API da [HG Brasil](https://hgbrasil.com/) (gratuita)
+
+### Passo a passo
+
+1. **Clone este repositório:**
+   ```bash
+   git clone [https://github.com/seu-usuario/conversor_app.git](https://github.com/seu-usuario/conversor_app.git)
+   cd conversor_app
